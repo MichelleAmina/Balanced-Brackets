@@ -23,9 +23,9 @@ function checkBrackets() {
     let msg = "";
 
     if (results == true) {
-        msg = `<h2>Brackets are balanced ==> ${testbrackets}</h2>`;
+        msg = `<h2 style="margin-top: 20px;">Brackets are balanced ==> ${testbrackets}</h2>`;
     } else {
-        msg = `<h2>Brackets are NOT balanced ==> ${testbrackets}</h2>`;
+        msg = `<h2 style="margin-top: 20px;">Brackets are NOT balanced ==> ${testbrackets}</h2>`;
     }
 
     //display the message
